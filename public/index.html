@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+  <link href="/assets/css/app.css" rel="stylesheet"></head>
+  <body class="body body__registration">
+    <main class="main">
+      <div class="content">
+        <div class="container container__registration">
+          <div class="registration">
+
+            <div class="close-action">
+              <button type="button" class="btn btn__close" title="Закрыть">
+                <span class="btn_text">Закрыть</span>
+              </button>
+            </div>
+
+            <div class="registration_col registration_col__steps">
+              <!--progress-->
+              <div class="progress progress__coins">
+                <div class="progress_bar">
+                  <div class="progress_value" style="width: 25%;">
+                    <div class="progress_tooltip">
+                    	<span class="icon icon-coin"></span>
+                      <div class="progress_tooltip-text">0/4</div>
+                    </div>
+                  </div>
+                </div>
+                <p class="progress_description">4 монеты = 4 жизни</p>
+              </div>
+              <!--END progress-->
+              <!--steps-->
+              <div class="steps">
+                <div class="step step__1 is-active">
+                  <span class="step_label">Шаг 1/4</span>
+                  <div class="step_description">
+                    <div class="step_title">Персональные данные</div>
+                    <div class="step_bonus">
+                    	<span class="step_bonus-counter">+1</span>
+                    	<span class="icon icon-coin icon-coin__step"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="step step__2">
+                  <span class="step_label">Шаг 2/4</span>
+                  <div class="step_description">
+                    <div class="step_title">Контактные данные</div>
+                    <div class="step_bonus">
+                    	<span class="step_bonus-counter">+1</span>
+                    	<span class="icon icon-coin icon-coin__step"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="step step__3">
+                  <span class="step_label">Шаг 3/4</span>
+                  <div class="step_description">
+                    <div class="step_title">Подтверждение email</div>
+                    <div class="step_bonus">
+                    	<span class="step_bonus-counter">+1</span>
+                    	<span class="icon icon-coin icon-coin__step"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="step step__4">
+                  <span class="step_label">Шаг 4/4</span>
+                  <div class="step_description">
+                    <div class="step_title">Подтверждение телефона</div>
+                    <div class="step_bonus">
+                    	<span class="step_bonus-counter">+1</span>
+                    	<span class="icon icon-coin icon-coin__step"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--END steps-->
+            </div>
+
+            <div class="registration_col registration_col__form">
+              <!--regform-->
+              <form action="" name="reg-form" id="reg-form">
+                <div class="form-block form-block__registration">
+                  <div class="form-title">Получение дополнительных жизней в игре</div>
+                  <div class="field-wrap">
+                    <div class="field">
+                      <div class="field_label">Имя</div>
+                      <div class="field_input-wrap">
+                      	<input type="text" title="Имя" class="field_input">
+                      </div>
+                      <div class="field_error">Не верный формат</div>
+                    </div>
+                  </div>
+                  <div class="field-wrap is-error">
+                    <div class="field">
+                      <div class="field_label">Фамилия</div>
+                      <div class="field_input-wrap">
+                      	<input type="text" title="Фамилия" class="field_input">
+                      </div>
+                      <div class="field_error">Не верный формат</div>
+                    </div>
+                  </div>
+                  <div class="field-wrap">
+                    <div class="field">
+                      <div class="field_label">Дата рождения</div>
+                      <div class="field_selects">
+                        <div class="field_select-wrap field_select-wrap__month">
+                          <select class="field_select field_select__month" name="month" id="month">
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9" selected>September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                          </select>
+                        </div>
+                        <div class="field_select-wrap field_select-wrap__day">
+                          <select class="field_select field_select__day" name="day" id="day">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                          </select>
+                        </div>
+                        <div class="field_select-wrap field_select-wrap__year">
+                          <select class="field_select field_select__year" name="year" id="year">
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="field_error">Не верный формат</div>
+                    </div>
+                  </div>
+                  <div class="form-action">
+                    <button type="button" class="btn btn__primary" title="Далее">
+                      <span class="btn_text">Далее</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <!--END regform-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  <script type="text/javascript" src="/assets/js/app.js"></script></body>
+</html>
